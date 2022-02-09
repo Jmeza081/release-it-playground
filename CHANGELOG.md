@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [1.0.0] - 2022-02-09
+
 ### Added
 - Let's try adding another change huh!
 - What about this
@@ -47,5 +49,6 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/0.2.2...HEAD
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/Jmeza081/release-it-playground/compare/0.2.2...1.0.0
 [0.2.2]: https://github.com/Jmeza081/release-it-playground/compare/0.2.1...0.2.2
