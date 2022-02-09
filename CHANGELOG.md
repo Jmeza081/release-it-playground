@@ -8,6 +8,13 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+### Added
+- Let's try adding another change huh!
+- What about this
+
+### Removed
+- I removed something else. How cool is that?
+
 ## [0.2.2] - 2022-02-09
 
 ### Removed
