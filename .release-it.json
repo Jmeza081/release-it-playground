@@ -1,0 +1,10 @@
+{
+    "git": {
+      "commitMessage": "Release v${version}",
+      "tagAnnotation": "Release ${version}",
+      "tag": true
+    },
+    "github": {
+      "release": true
+    }
+}
