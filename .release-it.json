@@ -11,7 +11,6 @@
         "@release-it/keep-a-changelog": {
           "filename": "CHANGELOG.md",
           "addUnreleased": true,
-          "keepUnreleased": true,
           "addVersionUrl": true
         }
     }
