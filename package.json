@@ -1,0 +1,23 @@
+{
+  "name": "release-it-playground",
+  "version": "0.0.0",
+  "description": "Test package publishing!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmeza081/release-it-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jmeza081/release-it-playground/issues"
+  },
+  "homepage": "https://github.com/Jmeza081/release-it-playground#readme",
+  "devDependencies": {
+    "release-it": "^14.12.4"
+  }
+}
