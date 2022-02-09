@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [0.2.2] - 2022-02-09
+
 ### Removed
 - remove `keepUnreleased` option
 
@@ -36,3 +38,7 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - What happens if this is an existing file? 
 - Testing this out
 - Testing this out
+
+
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/0.2.2...HEAD
+[0.2.2]: https://github.com/Jmeza081/release-it-playground/compare/0.2.1...0.2.2
