@@ -8,6 +8,9 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## Add
+- ContextualSaveBar - I fixed a bug
+
 ## [1.0.0] - 2022-02-09
 
 ### Added
