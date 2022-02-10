@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-02-10
+
 ## Add
 - ContextualSaveBar - I fixed a bug
 
@@ -52,6 +54,7 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/Jmeza081/release-it-playground/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/Jmeza081/release-it-playground/compare/0.2.2...1.0.0
 [0.2.2]: https://github.com/Jmeza081/release-it-playground/compare/0.2.1...0.2.2
