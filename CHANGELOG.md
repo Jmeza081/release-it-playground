@@ -8,6 +8,9 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+### Added
+- Finally testing out CI Mode
+
 ## [1.1.0] - 2022-02-10
 
 ## Add
