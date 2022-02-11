@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-02-11
+
 ## Removed
 - Removed a few things
 
@@ -62,7 +64,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.1.1...HEAD
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/Jmeza081/release-it-playground/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/Jmeza081/release-it-playground/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/Jmeza081/release-it-playground/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/Jmeza081/release-it-playground/compare/0.2.2...1.0.0
