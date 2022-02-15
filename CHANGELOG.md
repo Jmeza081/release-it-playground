@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+- Making another change request!
+
 ## [1.2.0] - 2022-02-11
 
 ## Removed
