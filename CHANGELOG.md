@@ -9,6 +9,7 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 ## [Unreleased]
 
 - Another test!
+- In Staging, these lines should not be released!
 
 ## [1.3.0] - 2022-02-15
 
