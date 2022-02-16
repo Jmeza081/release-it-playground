@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+- Let's test some pre-releses!
+
 ## [1.6.0] - 2022-02-16
 
 - Let's test some pre-releases!
