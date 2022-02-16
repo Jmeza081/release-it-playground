@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "dotenv release-it  -c .release-it/canary.json minor --preRelease=canary",
-    "release-it": "release-it"
+    "release-canary": "dotenv release-it  -c ./release-it/canary.json minor --preRelease=canary",
+    "release-latest": "dotenv release-it  -c ./release-it/latest.json"
   },
   "repository": {
     "type": "git",
