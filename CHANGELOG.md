@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [1.4.0-canary.0] - 2022-02-16
+
 - Another test!
 - In Staging, these lines should not be released!
 
@@ -71,7 +73,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.4.0-canary.0...HEAD
+[1.4.0-canary.0]: https://github.com/Jmeza081/release-it-playground/compare/1.3.0...1.4.0-canary.0
 [1.3.0]: https://github.com/Jmeza081/release-it-playground/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/Jmeza081/release-it-playground/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/Jmeza081/release-it-playground/compare/1.1.0...1.1.1
