@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+- In `release-canary`, these lines should not be released!
+
 ## [1.4.0-canary.0] - 2022-02-16
 
 - Another test!
