@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [1.8.0] - 2022-04-28
+
 - WCL-123: Add RowButton Something something
 - WCL-423: Add fixes for Table Component
 - WCL-434: Revert some other change
@@ -90,7 +92,7 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.7.0...HEAD
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.8.0...HEAD
 [1.4.0-canary.0]: https://github.com/Jmeza081/release-it-playground/compare/1.3.0...1.4.0-canary.0
 [1.3.0]: https://github.com/Jmeza081/release-it-playground/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/Jmeza081/release-it-playground/compare/1.1.1...1.2.0
@@ -104,3 +106,5 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 [1.6.0]: https://github.com/Jmeza081/release-it-playground/compare/1.6.0-canary.2...1.6.0
 
 [1.7.0]: https://github.com/Jmeza081/release-it-playground/compare/1.7.0-canary.0...1.7.0
+
+[1.8.0]: https://github.com/Jmeza081/release-it-playground/compare/1.8.0-canary.1...1.8.0
