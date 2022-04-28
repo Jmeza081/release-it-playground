@@ -1,6 +1,6 @@
 {
   "name": "release-it-playground",
-  "version": "1.12.0",
+  "version": "1.13.0-canary.0",
   "description": "Test package publishing!",
   "main": "index.js",
   "scripts": {
