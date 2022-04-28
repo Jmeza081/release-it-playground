@@ -8,6 +8,9 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+- WCL-123: Add RowButton Something something
+- WCL-423: Add fixes for Table Component
+
 ## [1.7.0] - 2022-02-18
 
 - Let's test some pre-releses!
