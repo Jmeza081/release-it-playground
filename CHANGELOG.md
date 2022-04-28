@@ -10,6 +10,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 - WCL-123: Add RowButton Something something
 - WCL-423: Add fixes for Table Component
+- WCL-434: Revert some other change
+- WCL-543: Even more changes!
 
 ## [1.7.0] - 2022-02-18
 
