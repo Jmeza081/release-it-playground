@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [1.15.0] - 2022-05-03
+
 - WCL-431: Add some unreleased notes!
 - WCL-432: Adding some additional unreleased notes!
 - WCL-433L Adding another change
@@ -120,7 +122,7 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.14.0...HEAD
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.15.0...HEAD
 [1.4.0-canary.0]: https://github.com/Jmeza081/release-it-playground/compare/1.3.0...1.4.0-canary.0
 [1.3.0]: https://github.com/Jmeza081/release-it-playground/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/Jmeza081/release-it-playground/compare/1.1.1...1.2.0
@@ -143,4 +145,5 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 [1.12.0]: https://github.com/Jmeza081/release-it-playground/compare/1.11.1-canary.1...1.12.0
 
+[1.15.0]: https://github.com/Jmeza081/release-it-playground/compare/1.14.0...1.15.0
 [1.14.0]: https://github.com/Jmeza081/release-it-playground/compare/1.14.0-canary.0...1.14.0
