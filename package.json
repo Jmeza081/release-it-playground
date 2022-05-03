@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release-canary": "dotenv release-it -- -c ./release-it/canary.json --preRelease=canary --ci",
-    "release-latest": "dotenv release-it -- -c ./release-it/latest.json",
+    "release-latest": "dotenv release-it -- -c ./release-it/latest.json --only-version --ci",
     "pre-release-test": "dotenv release-it -- -c ./release-it/canary.json preminor --preReleaseId=canary --npm.tag=canary --github.preRelease"
   },
   "repository": {
