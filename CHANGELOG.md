@@ -11,6 +11,7 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - WCL-431: Add some unreleased notes!
 - WCL-432: Adding some additional unreleased notes!
 - WCL-433L Adding another change
+- WCL-400: Adding changes from feature2 branch
 
 ## [1.15.0] - 2022-05-03
 
