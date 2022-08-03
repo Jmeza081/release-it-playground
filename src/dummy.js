@@ -5,3 +5,5 @@
  * 12323 Numbers! Strings! Remove me!
  */
 console.log('Hello world!');
+
+console.log('Added a new line!');
