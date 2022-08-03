@@ -8,6 +8,8 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 ## [Unreleased]
 
+## [1.17.0] - 2022-08-03
+
 - Removing unreleased for beta versions!
 
 ## [1.15.0] - 2022-05-03
@@ -124,7 +126,7 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/1.15.0...HEAD
+[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/v1.17.0...HEAD
 [1.4.0-canary.0]: https://github.com/Jmeza081/release-it-playground/compare/1.3.0...1.4.0-canary.0
 [1.3.0]: https://github.com/Jmeza081/release-it-playground/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/Jmeza081/release-it-playground/compare/1.1.1...1.2.0
@@ -149,3 +151,5 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 
 [1.15.0]: https://github.com/Jmeza081/release-it-playground/compare/1.14.0...1.15.0
 [1.14.0]: https://github.com/Jmeza081/release-it-playground/compare/1.14.0-canary.0...1.14.0
+
+[1.17.0]: https://github.com/Jmeza081/release-it-playground/compare/v1.16.0...v1.17.0
