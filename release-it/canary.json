@@ -4,7 +4,8 @@
       "tagAnnotation": "Release ${version}",
       "commit": true,
       "commitMessage": "Release v${version}",
-      "push": true
+      "push": true,
+      "changelog": "npx auto-changelog --stdout"
     },
     "github": {
       "release": true,
@@ -12,5 +13,8 @@
     },
     "npm": {
         "publish": false
+    },
+    "hooks": {
+      "after:bump": "npx auto-changelog -p"
     }
 }
