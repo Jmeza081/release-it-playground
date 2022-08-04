@@ -7,5 +7,3 @@
 console.log('Hello world!');
 
 console.log('Added a new line!');
-
-console.log('Making a quick change!');
