@@ -1,0 +1,18 @@
+name: Publish Canary or Next version
+
+on: push
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: staging
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: git config
+        run: git config user.name "${GITHUB_ACTOR}"
+      - name: release
+        id: release-variables
+        run: npm run release -- -c ./release-it/latest.json preminor --preRelease=latest --ci --verbose
+        env:
+          GITHUB_TOKEN: ${{secrets.ADMIN_GITHUB_TOKEN}}
