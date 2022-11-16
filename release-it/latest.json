@@ -13,9 +13,7 @@
     "github": {
       "release": true
     },
-    "npm": {
-        "publish": false
-    },
+    "npm": false,
     "plugins": {
         "@release-it/keep-a-changelog": {
           "filename": "CHANGELOG.md",
