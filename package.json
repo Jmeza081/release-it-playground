@@ -25,5 +25,10 @@
     "auto-changelog": "^2.4.0",
     "dotenv-cli": "^5.0.0",
     "release-it": "^14.12.4"
+  },
+  "release-it": {
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    }
   }
 }
