@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "dotenv release-it --npm.publishArgs='--registry=https://registry.npmjs.org'",
+    "release": "dotenv release-it npm.skipChecks",
     "release-canary": "dotenv release-it -- -c ./release-it/canary.json --preRelease=canary",
     "release-latest": "dotenv release-it -- -c ./release-it/latest.json --only-version --verbose",
     "pre-release-test": "dotenv release-it -- -c ./release-it/canary.json preminor --preReleaseId=canary --npm.tag=canary --github.preRelease"
