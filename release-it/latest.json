@@ -5,10 +5,10 @@
       "commit": true,
       "commitMessage": "Release v${version}",
       "push": true,
-      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs"
+      "changelog": "npx auto-changelog --stdout"
     },
     "hooks": {
-      "after:bump": "npx auto-changelog --commit-limit false --template https://raw.githubusercontent.com/release-it/release-it/master/templates/keepachangelog.hbs"
+      "after:bump": "npx auto-changelog -p"
     },
     "github": {
       "release": true
