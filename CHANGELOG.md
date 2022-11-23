@@ -6,8 +6,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`, `Deprecated`, `Removed`. Within these sub-chapters, add a line per JIRA ticket: `* <ticket ID>: <Ticket title>`. Turns out you need the Unreleased section! AND THE FORMAT FOR THE VERSION SECTION IS REALLY STRICT!
 
-## [Unreleased]
-
 ## [1.17.0] - 2022-08-03
 
 - Removing unreleased for beta versions!
@@ -126,7 +124,6 @@ Per each version, use either of these sub-chapters: `Added`, `Fixed`, `Changed`,
 - Testing this out
 
 
-[Unreleased]: https://github.com/Jmeza081/release-it-playground/compare/v1.17.0...HEAD
 [1.4.0-canary.0]: https://github.com/Jmeza081/release-it-playground/compare/1.3.0...1.4.0-canary.0
 [1.3.0]: https://github.com/Jmeza081/release-it-playground/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/Jmeza081/release-it-playground/compare/1.1.1...1.2.0
