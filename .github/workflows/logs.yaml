@@ -1,4 +1,5 @@
 name: Show some logs
+run-name: Informative logs
 
 on: push
 
