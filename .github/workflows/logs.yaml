@@ -9,6 +9,8 @@ jobs:
   CoolJobName:
     runs-on: ubuntu-latest
 
+    if: github.event.label.name == 'documentation'
+
     steps:
       - name: first log
         run: echo "Hello world!"
