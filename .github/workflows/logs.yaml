@@ -1,0 +1,11 @@
+name: Show some logs
+
+on: push
+
+jobs:
+  CoolJobName:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: first log
+        run: echo "Hello world!"
