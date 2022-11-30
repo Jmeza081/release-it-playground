@@ -1,7 +1,9 @@
 name: Show some logs
 run-name: Informative logs
 
-on: push
+on: 
+  pull_request:
+    types: [ labeled ]
 
 jobs:
   CoolJobName:
