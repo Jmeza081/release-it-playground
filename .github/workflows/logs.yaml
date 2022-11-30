@@ -14,3 +14,12 @@ jobs:
     steps:
       - name: first log
         run: echo "Hello world!"
+
+  BugJobby:
+    runs-on: ubuntu-latest
+
+    if: github.event.label.name == 'bug'
+
+    steps:
+      - name: second log
+        run: echo "Bye world!"
