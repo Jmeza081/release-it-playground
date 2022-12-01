@@ -1,0 +1,20 @@
+name: Get message
+
+inputs:
+  labelName:
+    description: 'Label name'
+    required: true
+    default: ''
+
+outputs:
+  generatedMessage:
+    description: 'Message with label'
+    value: ${{ steps.generateMessage.outputs.theMessage }}
+
+runs:
+  using: "composite"
+  steps:
+  - name: 'generate message'
+    id: generateMessage
+    run: echo "::set-output name={theMessage}::'${{inputs.labelName}} have been set to this PR'"
+    shell: bash
