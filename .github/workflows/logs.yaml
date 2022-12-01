@@ -5,21 +5,19 @@ on:
   pull_request:
     types: [ labeled ]
 
+env:
+  documentationLabel: ${{ github.event.label.name == 'documentation' }}
+  bugLabel: ${{ github.event.label.name == 'bug' }}
+
 jobs:
   CoolJobName:
     runs-on: ubuntu-latest
 
-    if: github.event.label.name == 'documentation'
-
     steps:
       - name: first log
+        if: ${{ env.documentationLabel }}
         run: echo "Hello world!"
-
-  BugJobby:
-    runs-on: ubuntu-latest
-
-    if: github.event.label.name == 'bug'
-
-    steps:
       - name: second log
+        if: ${{ env.bugLabel }}
         run: echo "Bye world!"
+
