@@ -6,18 +6,37 @@ on:
     types: [ labeled ]
 
 env:
-  DOCUMENTATION_LABEL: ${{ github.event.label.name == 'documentation' }}
-  BUG_LABEL: ${{ github.event.label.name == 'bug' }}
+  LABEL: ${{ github.event.label.name }}
 
 jobs:
-  CoolJobName:
+  getMessage:
     runs-on: ubuntu-latest
 
+    outputs:
+      message: ${{ steps.message.outputs.generatedMessage }}
+
     steps:
-      - name: first log
-        if: ${{ env.DOCUMENTATION_LABEL == 'true' }}
-        run: echo "Hello world!"
-      - name: second log
-        if: ${{ env.BUG_LABEL == 'true' }}
-        run: echo "Bye world!"
+      - name: 'Custom action'
+        id: message
+        uses: ./.github/actions/composite/getMessage
+        with:
+          labelName: ${{ env.LABEL }}
+
+  showMessage:
+    runs-on: ubuntu-latest
+
+    needs: getMessage
+
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v3
+      - name: 'Show message'
+        id: filtered-label
+        uses: actions/github-script@v6
+        with:
+          script: |
+            console.log('Nice. It works!')
+            console.log(${{ needs.getMessage.outputs.message }})
+
+    
 
