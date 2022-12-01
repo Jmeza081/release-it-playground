@@ -15,9 +15,9 @@ jobs:
 
     steps:
       - name: first log
-        if: ${{ env.documentationLabel }}
+        if: env.documentationLabel
         run: echo "Hello world!"
       - name: second log
-        if: ${{ env.bugLabel }}
+        if: env.bugLabel
         run: echo "Bye world!"
 
