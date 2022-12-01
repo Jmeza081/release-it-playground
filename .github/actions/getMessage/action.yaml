@@ -16,5 +16,5 @@ runs:
   steps:
   - name: 'generate message'
     id: generateMessage
-    run: echo "::set-output name={theMessage}::'${{inputs.labelName}} have been set to this PR'"
+    run: echo "theMessage='${{inputs.labelName}} have been set to this PR'" >> $GITHUB_OUTPUT
     shell: bash
