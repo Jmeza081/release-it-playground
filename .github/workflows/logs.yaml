@@ -16,6 +16,8 @@ jobs:
       message: ${{ steps.message.outputs.generatedMessage }}
 
     steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v3
       - name: 'Custom action'
         id: message
         uses: ./.github/actions/getMessage
