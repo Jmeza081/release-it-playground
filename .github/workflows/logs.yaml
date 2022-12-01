@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: 'Custom action'
         id: message
-        uses: ./.github/actions/composite/getMessage
+        uses: ./.github/actions/getMessage
         with:
           labelName: ${{ env.LABEL }}
 
