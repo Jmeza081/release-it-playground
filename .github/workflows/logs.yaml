@@ -33,12 +33,15 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@v3
       - name: 'Show message'
-        id: filtered-label
+        id: showMessage
         uses: actions/github-script@v6
         with:
           script: |
             console.log('Nice. It works!')
             console.log(${{ needs.getMessage.outputs.message }})
+            core.setOutput('finishMessage', 'Pipeline is done')
+      - name: 'End message'
+        run: echo "${{ steps.showMessage.outputs.finishMessage }}. Bye!"
 
     
 
