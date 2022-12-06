@@ -1,9 +1,7 @@
 name: Show some logs
 run-name: Informative logs
 
-on: 
-  pull_request:
-    types: [ labeled ]
+on: [ workflow_dispatch ]
 
 env:
   LABEL: ${{ github.event.label.name }}
