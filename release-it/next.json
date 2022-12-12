@@ -1,0 +1,25 @@
+{
+    "git": {
+      "tag": true,
+      "tagAnnotation": "Release ${version}",
+      "commit": true,
+      "commitMessage": "Release v${version}",
+      "push": true
+    },
+    "github": {
+      "release": true,
+      "preRelease": true
+    },
+    "npm": {
+        "publish": false
+    },
+    "plugins": {
+        "@release-it/keep-a-changelog": {
+          "filename": "CHANGELOG.md",
+          "strictLatest": false,
+          "addUnreleased": false,
+          "keepUnreleased": false,
+          "addVersionUrl": true
+        }
+    }
+}
