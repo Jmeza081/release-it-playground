@@ -1,0 +1,31 @@
+# Changelog
+
+{{#each (sortReleasesByDate releases)}}
+    {{#if href}}
+        ## [{{title}}]({{href}}){{#if tag}} ({{isoDate}}){{/if}}
+    {{else}}
+        ## {{title}}{{#if tag}} ({{isoDate}}){{/if}}
+    {{/if}}
+
+    {{#if summary}}
+        {{summary}}
+    {{/if}}
+    {{#if merges}}
+        ## Merges
+        {{#each merges}}
+            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`#{{id}}`]({{href}})){{/if}} {{message}} 
+        {{/each}}
+    {{/if}}
+    {{#if fixes}}
+        ## Fixes
+        {{#each fixes}}
+            - {{#if breaking}}**Breaking change:** {{/if}}{{commit.subject}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
+        {{/each}}
+    {{/if}}
+    {{#if commits}}
+        ## Commits
+        {{#each commits}}
+            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{subject}}
+        {{/each}}
+    {{/if}}
+{{/each}}
