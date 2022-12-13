@@ -9,7 +9,7 @@
     "release-canary": "dotenv release-it -- -c ./release-it/canary.json --preRelease=canary",
     "release-latest": "dotenv release-it -- -c ./release-it/latest.json --only-version --verbose",
     "pre-release-test": "dotenv release-it -- -c ./release-it/canary.json preminor --preReleaseId=canary --npm.tag=canary --github.preRelease",
-    "changelog": "npx auto-changelog -p --handlebars-setup ./generateChangelog/helpers.js --unreleased --commit-limit false --sort-commits date --template ./generateChangelog/outputChangelog.hbs"
+    "version": "auto-changelog -p --handlebars-setup changelog_helpers.js --commit-limit false --sort-commits date --template changelog_template.hbs"
   },
   "repository": {
     "type": "git",
