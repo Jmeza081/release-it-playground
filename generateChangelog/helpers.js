@@ -10,12 +10,12 @@ module.exports = function (Handlebars) {
 
         const jiraTicketPart = message.match(/([CWP])\w+-[0-9]+/gi) || '';
 
-        if(!jiraTicketPart || message.indexOf(jiraTicketPart[0]) !== 0) {
+        if(!jiraTicketPart) {
             return message; // No point in parsing if we aren't following conventions
         }
 
         const jiraTicketNumber = jiraTicketPart[0].match(/[0-9]+/gi) || '';
-        const affectedComponent = message.match(/([a-z])\w+\([a-z]+\)/gi) || '';
+        const affectedComponent = message.match(/(chore|fix|feat|feature)\([a-z]+\)/gi) || '';
 
         const componentName = affectedComponent
             ? affectedComponent[0].substring(

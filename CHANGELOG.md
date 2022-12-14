@@ -4,22 +4,23 @@
 
 ## Commits
 - ([`02bfd46`](https://github.com/Jmeza081/release-it-playground/commit/02bfd463a189dce95b761b19d9e30a7cac81af5b)) add sample
-- ([`c9db98d`](https://github.com/Jmeza081/release-it-playground/commit/c9db98dfba0b26f795ad5542bd666812f4f6cc21)) CWP-1704. Trying to generate message.
-- ([`c2de5f2`](https://github.com/Jmeza081/release-it-playground/commit/c2de5f2363120e4358fae130ad31e2ca886c1d12)) CWP-1704. fix(Coolcomponent) here is a mega message.
+- ([`c9db98d`](https://github.com/Jmeza081/release-it-playground/commit/c9db98dfba0b26f795ad5542bd666812f4f6cc21)) [CWP-1704] - Trying to generate message.
+- ([`c2de5f2`](https://github.com/Jmeza081/release-it-playground/commit/c2de5f2363120e4358fae130ad31e2ca886c1d12)) [CWP-1704] Coolcomponent - here is a mega message.
+- ([`b1a4314`](https://github.com/Jmeza081/release-it-playground/commit/b1a43146c73cefd30c27a14654c96961afa26418)) [CWP-1704] - test(NiceComponent) 0_0 Added string parser.
 ## [v1.19.0](https://github.com/Jmeza081/release-it-playground/compare/v1.18.0-canary.2...v1.19.0) (2022-12-13)
 
 ## Commits
-- ([`818fb58`](https://github.com/Jmeza081/release-it-playground/commit/818fb587ba632df3d285ef20305b2bf87e122aea)) CWP-1704. Added workflow for changelog.
+- ([`818fb58`](https://github.com/Jmeza081/release-it-playground/commit/818fb587ba632df3d285ef20305b2bf87e122aea)) [CWP-1704] - Added workflow for changelog.
 - ([`ba5c022`](https://github.com/Jmeza081/release-it-playground/commit/ba5c02251b919dfc76aebd64bfc2bc66a5900363)) Update package json.
 - ([`9ffd4f3`](https://github.com/Jmeza081/release-it-playground/commit/9ffd4f3e844f55fc124f948ce44eb7a7d34a857c)) remove dotenv
 - ([`298126e`](https://github.com/Jmeza081/release-it-playground/commit/298126e0297bb264e7a370277edfb27535ece1b7)) Install node and packages
 - ([`906f093`](https://github.com/Jmeza081/release-it-playground/commit/906f0936f18e129eb82084a98d0c75162aada763)) Replace pos of config user.name
-- ([`ccd3e22`](https://github.com/Jmeza081/release-it-playground/commit/ccd3e22a225522366669c1cb5e6ea35420fda8f8)) CWP-1704. Added registry for release-it
+- ([`ccd3e22`](https://github.com/Jmeza081/release-it-playground/commit/ccd3e22a225522366669c1cb5e6ea35420fda8f8)) [CWP-1704] - Added registry for release-it
 - ([`d24fc9b`](https://github.com/Jmeza081/release-it-playground/commit/d24fc9b19e7b802c23b4eee80a7083b01e5adc32)) npm false
 - ([`77a38ff`](https://github.com/Jmeza081/release-it-playground/commit/77a38ff30969a93750080c0a95d4605ce53678a7)) skip checks
 - ([`5bd79c1`](https://github.com/Jmeza081/release-it-playground/commit/5bd79c12dd037ecc5f41e7568436f71776e2b5c3)) registry
 - ([`c34e9c7`](https://github.com/Jmeza081/release-it-playground/commit/c34e9c7f0ee2d19bdbc138678a88f5a8454a3319)) trying set no-npm
-- ([`d8f5372`](https://github.com/Jmeza081/release-it-playground/commit/d8f53727f2afc8f098c48968889e1f55ef32db78)) CWP-1704. Publish false.
+- ([`d8f5372`](https://github.com/Jmeza081/release-it-playground/commit/d8f53727f2afc8f098c48968889e1f55ef32db78)) [CWP-1704] - Publish false.
 - ([`a34bc9b`](https://github.com/Jmeza081/release-it-playground/commit/a34bc9b3e03632f76d485665a1e94e3e9318bbaa)) Change dummy file.
 - ([`288d6f3`](https://github.com/Jmeza081/release-it-playground/commit/288d6f36e80f403659755a9552f6e902519d8e73)) Added autochangelog file and update changelog scripts.
 - ([`8742182`](https://github.com/Jmeza081/release-it-playground/commit/874218290553ccd0b695dd1d5e4015ff7a5f20b6)) Remove unreleased section from changelog.
@@ -44,8 +45,8 @@
 - ([`891c3b4`](https://github.com/Jmeza081/release-it-playground/commit/891c3b4b85c92e6011d58628cdd16d13e36e6a51)) Return
 - ([`5ed568f`](https://github.com/Jmeza081/release-it-playground/commit/5ed568f6588ecfa36304384568cbe827dfcd82ed)) add sample next json file
 - ([`736e4dc`](https://github.com/Jmeza081/release-it-playground/commit/736e4dc71d2b007a27241bd0d97ee05f10af3e22)) Added auto-chagelog script.
-- ([`d93b643`](https://github.com/Jmeza081/release-it-playground/commit/d93b643884bad76a71ae7a67dd0cd9219c31435b)) feat(README) [CWP-123] I updated the Readme file
-- ([`f4143d1`](https://github.com/Jmeza081/release-it-playground/commit/f4143d104572af84653af5f596634ad6b13443eb)) feat(README) [CWP-123] I updated the Readme file
+- ([`d93b643`](https://github.com/Jmeza081/release-it-playground/commit/d93b643884bad76a71ae7a67dd0cd9219c31435b)) [CWP-123] README - I updated the Readme file
+- ([`f4143d1`](https://github.com/Jmeza081/release-it-playground/commit/f4143d104572af84653af5f596634ad6b13443eb)) [CWP-123] README - I updated the Readme file
 - ([`81e7b7b`](https://github.com/Jmeza081/release-it-playground/commit/81e7b7bca4620faad9ccec7c61248f73ee4f6d15)) fix(package.json) resolve merge conflicts
 ## [v1.18.0-canary.2](https://github.com/Jmeza081/release-it-playground/compare/v1.18.0-canary.1...v1.18.0-canary.2) (2022-11-23)
 
@@ -55,17 +56,17 @@
 ## [v1.18.0-0](https://github.com/Jmeza081/release-it-playground/compare/v1.17.0...v1.18.0-0) (2022-11-23)
 
 ## Commits
-- ([`818fb58`](https://github.com/Jmeza081/release-it-playground/commit/818fb587ba632df3d285ef20305b2bf87e122aea)) CWP-1704. Added workflow for changelog.
+- ([`818fb58`](https://github.com/Jmeza081/release-it-playground/commit/818fb587ba632df3d285ef20305b2bf87e122aea)) [CWP-1704] - Added workflow for changelog.
 - ([`ba5c022`](https://github.com/Jmeza081/release-it-playground/commit/ba5c02251b919dfc76aebd64bfc2bc66a5900363)) Update package json.
 - ([`9ffd4f3`](https://github.com/Jmeza081/release-it-playground/commit/9ffd4f3e844f55fc124f948ce44eb7a7d34a857c)) remove dotenv
 - ([`298126e`](https://github.com/Jmeza081/release-it-playground/commit/298126e0297bb264e7a370277edfb27535ece1b7)) Install node and packages
 - ([`906f093`](https://github.com/Jmeza081/release-it-playground/commit/906f0936f18e129eb82084a98d0c75162aada763)) Replace pos of config user.name
-- ([`ccd3e22`](https://github.com/Jmeza081/release-it-playground/commit/ccd3e22a225522366669c1cb5e6ea35420fda8f8)) CWP-1704. Added registry for release-it
+- ([`ccd3e22`](https://github.com/Jmeza081/release-it-playground/commit/ccd3e22a225522366669c1cb5e6ea35420fda8f8)) [CWP-1704] - Added registry for release-it
 - ([`d24fc9b`](https://github.com/Jmeza081/release-it-playground/commit/d24fc9b19e7b802c23b4eee80a7083b01e5adc32)) npm false
 - ([`77a38ff`](https://github.com/Jmeza081/release-it-playground/commit/77a38ff30969a93750080c0a95d4605ce53678a7)) skip checks
 - ([`5bd79c1`](https://github.com/Jmeza081/release-it-playground/commit/5bd79c12dd037ecc5f41e7568436f71776e2b5c3)) registry
 - ([`c34e9c7`](https://github.com/Jmeza081/release-it-playground/commit/c34e9c7f0ee2d19bdbc138678a88f5a8454a3319)) trying set no-npm
-- ([`d8f5372`](https://github.com/Jmeza081/release-it-playground/commit/d8f53727f2afc8f098c48968889e1f55ef32db78)) CWP-1704. Publish false.
+- ([`d8f5372`](https://github.com/Jmeza081/release-it-playground/commit/d8f53727f2afc8f098c48968889e1f55ef32db78)) [CWP-1704] - Publish false.
 - ([`a34bc9b`](https://github.com/Jmeza081/release-it-playground/commit/a34bc9b3e03632f76d485665a1e94e3e9318bbaa)) Change dummy file.
 - ([`288d6f3`](https://github.com/Jmeza081/release-it-playground/commit/288d6f36e80f403659755a9552f6e902519d8e73)) Added autochangelog file and update changelog scripts.
 - ([`8742182`](https://github.com/Jmeza081/release-it-playground/commit/874218290553ccd0b695dd1d5e4015ff7a5f20b6)) Remove unreleased section from changelog.
@@ -74,8 +75,8 @@
 ## [v1.18.0-canary.1](https://github.com/Jmeza081/release-it-playground/compare/v1.18.0-canary.0...v1.18.0-canary.1) (2022-08-04)
 
 ## Commits
-- ([`71721dc`](https://github.com/Jmeza081/release-it-playground/commit/71721dc6a0315a778aa3128b4cb154e038d668f3)) Feat: [CWP-400] Added Feature 1
-- ([`7c4c98f`](https://github.com/Jmeza081/release-it-playground/commit/7c4c98fafc43138dc539b86053e0f5a3deb3d778)) Feat: [CWP-401] Added Feature 2
+- ([`71721dc`](https://github.com/Jmeza081/release-it-playground/commit/71721dc6a0315a778aa3128b4cb154e038d668f3)) [CWP-400] - Feat: [] Added Feature 1
+- ([`7c4c98f`](https://github.com/Jmeza081/release-it-playground/commit/7c4c98fafc43138dc539b86053e0f5a3deb3d778)) [CWP-401] - Feat: [] Added Feature 2
 - ([`ffba0d7`](https://github.com/Jmeza081/release-it-playground/commit/ffba0d797bd979103e975f7c8a1bd7d8ec4a3b9c)) Release v1.18.0-canary.1
 ## [v1.18.0-canary.0](https://github.com/Jmeza081/release-it-playground/compare/v1.18.0-0...v1.18.0-canary.0) (2022-08-04)
 
@@ -86,7 +87,7 @@
 - ([`7cbef93`](https://github.com/Jmeza081/release-it-playground/commit/7cbef93d696d814aa160c676713daf8eabc14bb2)) add auto-changelog token
 - ([`5216312`](https://github.com/Jmeza081/release-it-playground/commit/5216312181e483f889edbb87c92be74a9c5a06dc)) add keepachangelog formatted config
 - ([`a6dd951`](https://github.com/Jmeza081/release-it-playground/commit/a6dd951f0ba1f977b819fa5456c89199b06de9f6)) test out config
-- ([`0412fa5`](https://github.com/Jmeza081/release-it-playground/commit/0412fa521a2e06e45c53e1c6a40bac305b0150ee)) feat: [CWP-123] - Made a quick change
+- ([`0412fa5`](https://github.com/Jmeza081/release-it-playground/commit/0412fa521a2e06e45c53e1c6a40bac305b0150ee)) [CWP-123] - feat: [] - Made a quick change
 - ([`6f33b67`](https://github.com/Jmeza081/release-it-playground/commit/6f33b67600c9900b8c76242d6d24b8766898a51e)) Release v1.18.0-canary.0
 ## [v1.17.0](https://github.com/Jmeza081/release-it-playground/compare/v1.16.0...v1.17.0) (2022-08-03)
 
@@ -172,7 +173,7 @@
 ## Commits
 - ([`57badf2`](https://github.com/Jmeza081/release-it-playground/commit/57badf2f85e6a0880efe88c49bdd76ab04fc1da9)) Add changes
 - ([`51959a2`](https://github.com/Jmeza081/release-it-playground/commit/51959a2681137b850b86178d90ef41f0b5a0cb48)) change release flag to pre-minor
-- ([`061d95d`](https://github.com/Jmeza081/release-it-playground/commit/061d95d742a26a2e0390c81b225a0a9d22cdf3c6)) add WCL-432
+- ([`061d95d`](https://github.com/Jmeza081/release-it-playground/commit/061d95d742a26a2e0390c81b225a0a9d22cdf3c6)) [CWP-432] - add 
 - ([`8397118`](https://github.com/Jmeza081/release-it-playground/commit/83971189013cd9c467ffbed2721a2e60c2e7bf77)) Release v1.9.0-canary.0
 ## [1.8.0](https://github.com/Jmeza081/release-it-playground/compare/1.8.0-canary.1...1.8.0) (2022-04-28)
 
