@@ -10,17 +10,26 @@ module.exports = function (Handlebars) {
 
         const jiraTicketPart = message.match(/([CWP])\w+-[0-9]+/gi) || '';
 
-        if(!jiraTicketPart) {
+        if(!jiraTicketPart || message.indexOf(jiraTicketPart[0]) !== 0) {
             return message; // No point in parsing if we aren't following conventions
         }
-        console.log('message', message);
-        console.log('jiraTicketPart', jiraTicketPart);
+
         const jiraTicketNumber = jiraTicketPart[0].match(/[0-9]+/gi) || '';
-        console.log('jiraTicketNumber', jiraTicketNumber);
-        const affectedComponent = message.match(/fix\((.*?)\))/gi) || '';
-        console.log('affectedComponent', affectedComponent);
+        const affectedComponent = message.match(/([a-z])\w+\([a-z]+\)/gi) || '';
 
+        const componentName = affectedComponent
+            ? affectedComponent[0].substring(
+                    affectedComponent[0].indexOf('(')+1, affectedComponent[0].indexOf(')')
+                ) + ' ' // add space in end for better view in message
+            : '';
 
-        return message;
+        const clearMessage = message.replace(jiraTicketPart, '').replace(affectedComponent, '').replace(/^[^A-Za-z]+/, '');
+        if (clearMessage === '') {
+            return message; // No need empty message
+        }
+
+        const generateMessage = `[CWP-${jiraTicketNumber[0]}] ${componentName}- ${clearMessage}`
+
+        return generateMessage;
     });
 }

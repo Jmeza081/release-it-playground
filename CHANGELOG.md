@@ -5,6 +5,7 @@
 ## Commits
 - ([`02bfd46`](https://github.com/Jmeza081/release-it-playground/commit/02bfd463a189dce95b761b19d9e30a7cac81af5b)) add sample
 - ([`c9db98d`](https://github.com/Jmeza081/release-it-playground/commit/c9db98dfba0b26f795ad5542bd666812f4f6cc21)) CWP-1704. Trying to generate message.
+- ([`c2de5f2`](https://github.com/Jmeza081/release-it-playground/commit/c2de5f2363120e4358fae130ad31e2ca886c1d12)) CWP-1704. fix(Coolcomponent) here is a mega message.
 ## [v1.19.0](https://github.com/Jmeza081/release-it-playground/compare/v1.18.0-canary.2...v1.19.0) (2022-12-13)
 
 ## Commits
