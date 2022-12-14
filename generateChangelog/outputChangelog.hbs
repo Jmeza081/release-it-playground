@@ -13,19 +13,19 @@
     {{#if merges}}
         ## Merges
         {{#each merges}}
-            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`#{{id}}`]({{href}})){{/if}} {{message}} 
+            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`#{{id}}`]({{href}})){{/if}} {{#formatMessage}}{{message}}{{/formatMessage}}
         {{/each}}
     {{/if}}
     {{#if fixes}}
         ## Fixes
         {{#each fixes}}
-            - {{#if breaking}}**Breaking change:** {{/if}}{{commit.subject}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
+            - {{#if breaking}}**Breaking change:** {{/if}}{{#formatMessage}}{{commit.subject}}{{/formatMessage}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
         {{/each}}
     {{/if}}
     {{#if commits}}
         ## Commits
         {{#each commits}}
-            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{subject}}
+            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{#formatMessage}}{{subject}}{{/formatMessage}}
         {{/each}}
     {{/if}}
 {{/each}}
