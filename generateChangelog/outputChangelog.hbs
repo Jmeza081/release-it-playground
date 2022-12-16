@@ -12,20 +12,56 @@
     {{/if}}
     {{#if merges}}
         ## Merges
-        {{#each merges}}
-            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`#{{id}}`]({{href}})){{/if}} {{#formatMessage}}{{message}}{{/formatMessage}}
-        {{/each}}
+        {{#commit-list merges heading='### Added:' message='Added: '}}
+            - {{#if href}}([`#{{id}}`]({{href}})){{/if}} {{#formatMessage}}{{message}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list merges heading='### Changed:' message='Changed: ' exclude='(Added:)\gi'}}
+            - {{#if href}}([`#{{id}}`]({{href}})){{/if}} {{#formatMessage}}{{message}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list merges heading='### Fixed:' message='Fixed: ' exclude='(Added:|Changed)\gi'}}
+            - {{#if href}}([`#{{id}}`]({{href}})){{/if}} {{#formatMessage}}{{message}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list merges heading='### Removed:' message='Removed: ' exclude='(Added:|Changed:|Fixed:)\gi'}}
+            - {{#if href}}([`#{{id}}`]({{href}})){{/if}} {{#formatMessage}}{{message}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list merges heading='### Other:' message=' ' exclude='(Added:|Changed:|Fixed:|Removed:)\gi'}}
+            - {{#if href}}([`#{{id}}`]({{href}})){{/if}} {{#formatMessage}}{{message}}{{/formatMessage}}
+        {{/commit-list}}
     {{/if}}
     {{#if fixes}}
         ## Fixes
-        {{#each fixes}}
-            - {{#if breaking}}**Breaking change:** {{/if}}{{#formatMessage}}{{commit.subject}}{{/formatMessage}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
-        {{/each}}
+        {{#commit-list fixes heading='### Added:' message='Added: '}}
+            - {{#formatMessage}}{{commit.subject}}{{/formatMessage}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
+        {{/commit-list}}
+        {{#commit-list fixes heading='### Changed:' message='Changed: ' exclude='(Added:)\gi'}}
+            - {{#formatMessage}}{{commit.subject}}{{/formatMessage}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
+        {{/commit-list}}
+        {{#commit-list fixes heading='### Fixed:' message='Fixed: ' exclude='(Added:|Changed)\gi'}}
+            - {{#formatMessage}}{{commit.subject}}{{/formatMessage}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
+        {{/commit-list}}
+        {{#commit-list fixes heading='### Removed:' message='Removed: ' exclude='(Added:|Changed:|Fixed:)\gi'}}
+            - {{#formatMessage}}{{commit.subject}}{{/formatMessage}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
+        {{/commit-list}}
+        {{#commit-list fixes heading='### Other:' message=' ' exclude='(Added:|Changed:|Fixed:|Removed:)\gi'}}
+            - {{#formatMessage}}{{commit.subject}}{{/formatMessage}}{{#each fixes}} {{#if href}}([`#{{id}}`]({{href}})){{/if}}{{/each}}
+        {{/commit-list}}
     {{/if}}
     {{#if commits}}
         ## Commits
-        {{#each commits}}
-            - {{#if breaking}}**Breaking change:** {{/if}}{{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{#formatMessage}}{{subject}}{{/formatMessage}}
-        {{/each}}
+        {{#commit-list commits heading='### Added:' message='Added: '}}
+            - {{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{#formatMessage}}{{subject}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list commits heading='### Changed:' message='Changed: ' exclude='(Added:)\gi'}}
+            - {{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{#formatMessage}}{{subject}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list commits heading='### Fixed:' message='Fixed: ' exclude='(Added:|Changed)\gi'}}
+            - {{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{#formatMessage}}{{subject}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list commits heading='### Removed:' message='Removed: ' exclude='(Added:|Changed:|Fixed:)\gi'}}
+            - {{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{#formatMessage}}{{subject}}{{/formatMessage}}
+        {{/commit-list}}
+        {{#commit-list commits heading='### Other:' message=' ' exclude='(Added:|Changed:|Fixed:|Removed:)\gi'}}
+            - {{#if href}}([`{{shorthash}}`]({{href}})){{/if}} {{#formatMessage}}{{subject}}{{/formatMessage}}
+        {{/commit-list}}
     {{/if}}
 {{/each}}
