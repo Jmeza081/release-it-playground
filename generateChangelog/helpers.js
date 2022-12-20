@@ -1,4 +1,4 @@
-module.exports = function (Handlebars) {// added comment
+module.exports = function (Handlebars) {// added commen
     Handlebars.registerHelper('sortReleasesByDate', function (releases) {
         return releases.sort(function(a, b) {
             return new Date(b.isoDate) - new Date(a.isoDate);
