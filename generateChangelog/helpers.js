@@ -1,3 +1,4 @@
+// dummy change
 module.exports = function (Handlebars) {
     Handlebars.registerHelper('sortReleasesByDate', function (releases) {
         return releases.sort(function(a, b) {
